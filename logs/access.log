@@ -5593,3 +5593,122 @@
 [2017-07-17 19:30:36.071] [INFO] log_info - GET /dist/libs.js?49621f672d3e847e0e40 200 168ms ::1
 [2017-07-17 19:30:36.264] [INFO] log_info - GET /favicon.ico 200 5ms ::1
 [2017-07-17 19:30:47.697] [WARN] log_info - GET /dist/common.e062a734f38f5c9559ec.css 304 1ms ::1
+[2017-07-18 13:25:38.260] [INFO] log_info - GET /dist/app.e062a734f38f5c9559ec.js 200 318ms ::1
+[2017-07-18 13:25:38.603] [INFO] log_info - GET /dist/common.e062a734f38f5c9559ec.css 200 661ms ::1
+[2017-07-18 13:25:38.607] [INFO] log_info - GET /dist/1.9bedd124689023be2c46.js 200 665ms ::1
+[2017-07-18 13:25:38.714] [INFO] log_info - GET /dist/0.379e881d50930b08c814.js 200 102ms ::1
+[2017-07-18 13:25:38.719] [INFO] log_info - GET /dist/assets/images/banner1.jpg 200 106ms ::1
+[2017-07-18 13:25:38.733] [INFO] log_info - GET /dist/2.0e3481941a82ad41641f.js 200 12ms ::1
+[2017-07-18 13:25:38.747] [INFO] log_info - GET /dist/libs.js?49621f672d3e847e0e40 200 813ms ::1
+[2017-07-18 13:26:51.041] [ERROR] log_info - TypeError: Cannot read property 'asyncData' of undefined
+    at server-bundle.js:1:2153
+    at Array.map (native)
+    at server-bundle.js:1:2133
+    at AbstractHistory.onReady (/Users/hotread/work/learn/vue-weight/node_modules/vue-router/dist/vue-router.common.js:1786:5)
+    at VueRouter.onReady (/Users/hotread/work/learn/vue-weight/node_modules/vue-router/dist/vue-router.common.js:2410:16)
+    at server-bundle.js:1:2051
+    at Promise.F (/Users/hotread/work/learn/vue-weight/node_modules/core-js/library/modules/_export.js:35:28)
+    at t.default (server-bundle.js:1:1954)
+    at /Users/hotread/work/learn/vue-weight/node_modules/vue-server-renderer/build.js:5894:15
+    at /Users/hotread/work/learn/vue-weight/node_modules/vue-server-renderer/build.js:5870:14
+[2017-07-18 13:26:51.050] [ERROR] log_info - GET /about 500 192ms ::1
+[2017-07-18 13:26:53.577] [ERROR] log_info - TypeError: Cannot read property 'asyncData' of undefined
+    at server-bundle.js:1:2153
+    at Array.map (native)
+    at server-bundle.js:1:2133
+    at AbstractHistory.onReady (/Users/hotread/work/learn/vue-weight/node_modules/vue-router/dist/vue-router.common.js:1786:5)
+    at VueRouter.onReady (/Users/hotread/work/learn/vue-weight/node_modules/vue-router/dist/vue-router.common.js:2410:16)
+    at server-bundle.js:1:2051
+    at Promise.F (/Users/hotread/work/learn/vue-weight/node_modules/core-js/library/modules/_export.js:35:28)
+    at t.default (server-bundle.js:1:1954)
+    at /Users/hotread/work/learn/vue-weight/node_modules/vue-server-renderer/build.js:5894:15
+    at /Users/hotread/work/learn/vue-weight/node_modules/vue-server-renderer/build.js:5870:14
+[2017-07-18 13:26:53.579] [ERROR] log_info - GET /about 500 10ms ::1
+[2017-07-18 13:28:13.868] [INFO] log_info - GET /about 200 204ms ::1
+[2017-07-18 13:28:13.907] [INFO] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 200 25ms ::1
+[2017-07-18 13:28:13.911] [INFO] log_info - GET /dist/1.ea8d0a461dd27edaa4bc.js 200 25ms ::1
+[2017-07-18 13:28:13.916] [INFO] log_info - GET /dist/0.db8f1c6065263de3bc14.js 200 6ms ::1
+[2017-07-18 13:28:13.917] [INFO] log_info - GET /dist/2.c21d4e331e01411d4852.js 200 5ms ::1
+[2017-07-18 13:28:13.919] [INFO] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 200 34ms ::1
+[2017-07-18 13:28:13.920] [INFO] log_info - GET /dist/libs.js?05aa5a3d0783dac06b6a 200 41ms ::1
+[2017-07-18 13:28:35.573] [INFO] log_info - GET /about 200 6ms ::1
+[2017-07-18 13:28:35.591] [WARN] log_info - GET /dist/libs.js?05aa5a3d0783dac06b6a 304 4ms ::1
+[2017-07-18 13:28:35.592] [WARN] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 304 4ms ::1
+[2017-07-18 13:28:35.593] [WARN] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 304 5ms ::1
+[2017-07-18 13:28:35.594] [WARN] log_info - GET /dist/1.ea8d0a461dd27edaa4bc.js 304 4ms ::1
+[2017-07-18 13:28:35.606] [WARN] log_info - GET /dist/0.db8f1c6065263de3bc14.js 304 11ms ::1
+[2017-07-18 13:28:35.607] [WARN] log_info - GET /dist/2.c21d4e331e01411d4852.js 304 11ms ::1
+[2017-07-18 13:29:52.238] [INFO] log_info - GET /about 200 256ms ::1
+[2017-07-18 13:29:52.310] [INFO] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 200 56ms ::1
+[2017-07-18 13:29:52.313] [INFO] log_info - GET /dist/1.d0e26a8abf75413ff4ad.js 200 59ms ::1
+[2017-07-18 13:29:52.330] [INFO] log_info - GET /dist/libs.js?83f367065437e3f728be 200 79ms ::1
+[2017-07-18 13:29:52.334] [INFO] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 200 73ms ::1
+[2017-07-18 13:29:52.336] [INFO] log_info - GET /dist/0.db8f1c6065263de3bc14.js 200 16ms ::1
+[2017-07-18 13:29:52.339] [INFO] log_info - GET /dist/2.c21d4e331e01411d4852.js 200 13ms ::1
+[2017-07-18 13:30:39.613] [INFO] log_info - GET /about 200 232ms ::1
+[2017-07-18 13:30:39.651] [INFO] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 200 25ms ::1
+[2017-07-18 13:30:39.655] [INFO] log_info - GET /dist/1.9df7577f3d194372eae8.js 200 20ms ::1
+[2017-07-18 13:30:39.662] [INFO] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 200 29ms ::1
+[2017-07-18 13:30:39.663] [INFO] log_info - GET /dist/0.db8f1c6065263de3bc14.js 200 8ms ::1
+[2017-07-18 13:30:39.664] [INFO] log_info - GET /dist/2.c21d4e331e01411d4852.js 200 6ms ::1
+[2017-07-18 13:30:39.665] [INFO] log_info - GET /dist/libs.js?a9dce4669b3e2aaa4f17 200 42ms ::1
+[2017-07-18 13:31:12.169] [INFO] log_info - GET /about 200 6ms ::1
+[2017-07-18 13:31:12.195] [WARN] log_info - GET /dist/libs.js?a9dce4669b3e2aaa4f17 304 3ms ::1
+[2017-07-18 13:31:12.196] [WARN] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 304 4ms ::1
+[2017-07-18 13:31:12.197] [WARN] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 304 4ms ::1
+[2017-07-18 13:31:12.197] [WARN] log_info - GET /dist/1.9df7577f3d194372eae8.js 304 4ms ::1
+[2017-07-18 13:31:12.201] [WARN] log_info - GET /dist/0.db8f1c6065263de3bc14.js 304 1ms ::1
+[2017-07-18 13:31:12.204] [WARN] log_info - GET /dist/2.c21d4e331e01411d4852.js 304 3ms ::1
+[2017-07-18 13:33:53.108] [INFO] log_info - GET /about 200 244ms ::1
+[2017-07-18 13:33:53.152] [INFO] log_info - GET /dist/1.544a11341b6b68c1dd99.js 200 25ms ::1
+[2017-07-18 13:33:53.154] [INFO] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 200 21ms ::1
+[2017-07-18 13:33:53.159] [INFO] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 200 26ms ::1
+[2017-07-18 13:33:53.164] [INFO] log_info - GET /dist/libs.js?4b746171fc03639f1295 200 41ms ::1
+[2017-07-18 13:33:53.167] [INFO] log_info - GET /dist/0.db8f1c6065263de3bc14.js 200 7ms ::1
+[2017-07-18 13:33:53.168] [INFO] log_info - GET /dist/2.c21d4e331e01411d4852.js 200 7ms ::1
+[2017-07-18 13:35:40.078] [INFO] log_info - GET /about 200 324ms ::1
+[2017-07-18 13:35:40.126] [INFO] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 200 30ms ::1
+[2017-07-18 13:35:40.128] [INFO] log_info - GET /dist/1.5ada14b460129e5c8280.js 200 30ms ::1
+[2017-07-18 13:35:40.140] [INFO] log_info - GET /dist/0.db8f1c6065263de3bc14.js 200 9ms ::1
+[2017-07-18 13:35:40.140] [INFO] log_info - GET /dist/2.c21d4e331e01411d4852.js 200 7ms ::1
+[2017-07-18 13:35:40.141] [INFO] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 200 36ms ::1
+[2017-07-18 13:35:40.143] [INFO] log_info - GET /dist/libs.js?9bafc8e6f45641e5c016 200 49ms ::1
+[2017-07-18 13:37:46.940] [INFO] log_info - GET /about 200 230ms ::1
+[2017-07-18 13:37:46.979] [INFO] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 200 23ms ::1
+[2017-07-18 13:37:46.985] [INFO] log_info - GET /dist/1.a4f994c0aa7548cd2a5a.js 200 22ms ::1
+[2017-07-18 13:37:46.991] [INFO] log_info - GET /dist/0.db8f1c6065263de3bc14.js 200 9ms ::1
+[2017-07-18 13:37:46.992] [INFO] log_info - GET /dist/2.c21d4e331e01411d4852.js 200 6ms ::1
+[2017-07-18 13:37:46.993] [INFO] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 200 31ms ::1
+[2017-07-18 13:37:46.994] [INFO] log_info - GET /dist/libs.js?5877ca60ae594ab77c1a 200 41ms ::1
+[2017-07-18 13:39:12.274] [INFO] log_info - GET /about 200 219ms ::1
+[2017-07-18 13:39:12.309] [INFO] log_info - GET /dist/1.c37ff593d992786868f2.js 200 21ms ::1
+[2017-07-18 13:39:12.313] [INFO] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 200 22ms ::1
+[2017-07-18 13:39:12.318] [INFO] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 200 29ms ::1
+[2017-07-18 13:39:12.320] [INFO] log_info - GET /dist/0.db8f1c6065263de3bc14.js 200 4ms ::1
+[2017-07-18 13:39:12.322] [INFO] log_info - GET /dist/2.c21d4e331e01411d4852.js 200 5ms ::1
+[2017-07-18 13:39:12.323] [INFO] log_info - GET /dist/libs.js?8ff57a75a0dde8e796cc 200 37ms ::1
+[2017-07-18 13:39:12.457] [INFO] log_info - GET /favicon.ico 200 4ms ::1
+[2017-07-18 13:39:14.370] [INFO] log_info - GET /about 200 3ms ::1
+[2017-07-18 13:39:14.379] [WARN] log_info - GET /dist/libs.js?8ff57a75a0dde8e796cc 304 2ms ::1
+[2017-07-18 13:39:14.380] [WARN] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 304 3ms ::1
+[2017-07-18 13:39:14.381] [WARN] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 304 4ms ::1
+[2017-07-18 13:39:14.382] [WARN] log_info - GET /dist/1.c37ff593d992786868f2.js 304 3ms ::1
+[2017-07-18 13:39:14.384] [WARN] log_info - GET /dist/0.db8f1c6065263de3bc14.js 304 1ms ::1
+[2017-07-18 13:39:14.385] [WARN] log_info - GET /dist/2.c21d4e331e01411d4852.js 304 1ms ::1
+[2017-07-18 13:39:14.466] [INFO] log_info - GET /favicon.ico 200 2ms ::1
+[2017-07-18 13:39:15.451] [INFO] log_info - GET /about 200 3ms ::1
+[2017-07-18 13:39:15.461] [WARN] log_info - GET /dist/libs.js?8ff57a75a0dde8e796cc 304 1ms ::1
+[2017-07-18 13:39:15.462] [WARN] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 304 3ms ::1
+[2017-07-18 13:39:15.463] [WARN] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 304 3ms ::1
+[2017-07-18 13:39:15.465] [WARN] log_info - GET /dist/1.c37ff593d992786868f2.js 304 5ms ::1
+[2017-07-18 13:39:15.466] [WARN] log_info - GET /dist/0.db8f1c6065263de3bc14.js 304 1ms ::1
+[2017-07-18 13:39:15.467] [WARN] log_info - GET /dist/2.c21d4e331e01411d4852.js 304 1ms ::1
+[2017-07-18 13:39:15.507] [INFO] log_info - GET /favicon.ico 200 8ms ::1
+[2017-07-18 13:39:17.573] [INFO] log_info - GET /about 200 5ms ::1
+[2017-07-18 13:39:17.582] [WARN] log_info - GET /dist/libs.js?8ff57a75a0dde8e796cc 304 2ms ::1
+[2017-07-18 13:39:17.582] [WARN] log_info - GET /dist/app.5a1f5679c4b43c233cf6.js 304 1ms ::1
+[2017-07-18 13:39:17.583] [WARN] log_info - GET /dist/common.5a1f5679c4b43c233cf6.css 304 1ms ::1
+[2017-07-18 13:39:17.583] [WARN] log_info - GET /dist/1.c37ff593d992786868f2.js 304 2ms ::1
+[2017-07-18 13:39:17.585] [WARN] log_info - GET /dist/0.db8f1c6065263de3bc14.js 304 0ms ::1
+[2017-07-18 13:39:17.586] [WARN] log_info - GET /dist/2.c21d4e331e01411d4852.js 304 1ms ::1
+[2017-07-18 13:39:17.621] [INFO] log_info - GET /favicon.ico 200 3ms ::1
