@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>sort</title>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script  type="text/javascript" src="sort.js"></script>
+	<style>
+
+	     .sortList{
+	     	list-style: none;
+	     	position: relative;
+	     }
+		 .sortList li,.placehodler{
+		 	 position: absolute;
+			 top: 0;
+			 left: 0;
+		 	 width: 100px;
+		 	 height: 100px;
+		 	 text-align: center;
+		 	 line-height: 100px;
+		 	 border-radius: 5px;
+		 	 margin: 10px;
+		 	 border: 1px solid #ccc;
+		 	 background: #FFF;
+		 }
+		 .placehodler{
+		 	 border: 2px dashed #ccc !important;
+		 }
+	</style>
+</head>
+<body>
+
+   <ul id='dragEle' class="sortList">
+   	<li>1</li>
+   	<li>2</li>
+   	<li>3</li>
+   	<li>4</li>
+   	<li>5</li>
+   	<li>6</li>
+   	<li>7</li>
+   	<li>8</li>
+   	<li>9</li>
+   	<li>10</li>
+   </ul>
+	<script>
+		 $('#dragEle').dragSort({
+		 	 dragEnd:function(source,target){
+		 	 	console.log(source);
+		 	 	console.log(target);
+		 	 }
+		 })
+	</script>
+</body>
+</html>
