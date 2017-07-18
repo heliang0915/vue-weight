@@ -1,0 +1,318 @@
+.recommend .recommend-title h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+
+
+.hot .container-inner .hot-list li, .recommend .container-inner .hot-list li {
+  /*float: left;*/
+  width: 105px;
+  margin-right: 19px;
+}
+
+.hot .container-inner .hot-list li:nth-child(1), .recommend .container-inner .hot-list li:nth-child(1) {
+  margin-left: 0;
+}
+
+.hot .container-inner .hot-list li p, .recommend .container-inner .hot-list li p {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.recommend .recommend-title {
+  overflow: hidden;
+  position: relative;
+}
+
+.recommend .recommend-title .classify-list {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  overflow: hidden;
+  font-size: 14px;
+}
+
+.recommend .recommend-title .classify-list ul li {
+  float: left;
+  padding: 0 10px;
+  border-right: 1px solid #ccc;
+  color: #262626;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.recommend .recommend-title .classify-list ul li:hover {
+  color: #ff3955 !important;
+}
+
+.recommend .recommend-title .classify-list ul li.active {
+  color: #ff3955;
+}
+
+.recommend .recommend-title .classify-list ul li:nth-last-child(1) {
+  border-right: 0;
+}
+
+.new-book .container-inner .content .side-left {
+  float: left;
+  width: 228px;
+  border: 1px solid #eee;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner {
+  width: 190px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner .imgs {
+  position: relative;
+  height: 125px;
+  margin: 4px auto 0;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner .imgs li {
+  width: 82px;
+  position: absolute;
+  top: 0px;
+  height: 90px;
+  left: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  background: #FFF;
+  box-shadow: 0px 0px 15px #999;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner .imgs li a {
+  height: 100%;
+  width: 100%;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner .imgs li a img {
+  height: 100%;
+  width: 100%;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner .imgs li:nth-child(2) {
+  left: 50px;
+  z-index: 2;
+  top: -5px;
+  height: 100px;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner .imgs li:nth-child(3) {
+  left: 90px;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner p {
+  font-size: 18px;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner .desc .reader {
+  font-size: 12px;
+  color: #999;
+  margin: 4px 0;
+  display: inline-block;
+}
+
+.new-book .container-inner .content .side-left .side-left-inner .desc p {
+  text-align: left;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.new-book .container-inner .content .side-right {
+  float: left;
+  width: 768px;
+}
+
+.update {
+  padding-right: 25px;
+}
+
+.update .table-list {
+  width: 100%;
+  font-size: 12px;
+  color: #808080;
+}
+
+.update .table-list td {
+  border-top: 1px solid #ccc;
+  padding: 8px 0;
+}
+
+.update .table-list a {
+  color: #262626;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.update .table-list a:hover {
+  color: #ff3955 !important;
+}
+
+.update .table-list .classify {
+  font-size: 14px;
+}
+
+.update .table-list .name {
+  max-width: 180px;
+}
+
+.update .table-list .name a {
+  font-size: 14px;
+}
+
+.update .table-list .timer {
+  width: 80px;
+  text-align: right;
+}
+
+.update .table-list .c1 {
+  width: 150px;
+}
+
+.update .table-list .counter {
+  width: 100px;
+}
+
+.update .table-list .desc {
+  max-width: 300px;
+}
+
+.update .table-list .desc a {
+  color: #808080;
+}
+
+.ranks {
+  margin-top: -30px;
+  overflow: hidden;
+}
+
+.limit-free {
+  background: #FFF;
+  height: 220px;
+  margin-bottom: 20px;
+}
+
+.limit-free .limit-free-list {
+  text-align: center;
+}
+
+.limit-free .limit-free-list li {
+  width: 20%;
+  height: 220px;
+  border-left: 1px solid #f1f1f1;
+  margin-right: -1px;
+  border-bottom: 0;
+  float: left;
+}
+
+.limit-free .limit-free-list li:nth-child(1) {
+  width: 19.7%;
+}
+
+.limit-free .limit-free-list li .free-item-first {
+  margin: 25px auto;
+  width: 150px;
+  font-size: 14px;
+  color: #ff3955;
+}
+.hot-list{
+  display: flex;
+}
+.limit-free .limit-free-list li .free-item-first h3 {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.limit-free .limit-free-list li .free-item-first p {
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.limit-free .limit-free-list li .free-item-first em {
+  display: block;
+  margin: 6px 0 10px;
+  font-size: 16px;
+}
+
+.limit-free .limit-free-list li .free-item-first a {
+  color: #262626;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  display: block;
+  font-size: 14px;
+  color: #2972cc;
+}
+
+.limit-free .limit-free-list li .free-item-first a:hover {
+  color: #ff3955 !important;
+}
+
+.limit-free .limit-free-list li .free-item-first a:hover {
+  color: #2972cc;
+}
+
+.limit-free .limit-free-list li .free-item-first .clock {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.limit-free .limit-free-list li .free-item-first .clock img {
+  height: 100%;
+  width: 100%;
+}
+
+.limit-free .limit-free-list .free-item {
+  transition: all .5s;
+  position: relative;
+  z-index: 1;
+}
+
+.limit-free .limit-free-list .free-item:hover {
+  box-shadow: 0px 5px 16px #ccc;
+  z-index: 3;
+}
+
+.limit-free .limit-free-list .free-item .free-item-inner {
+  margin: 28px 0;
+}
+
+.limit-free .limit-free-list .free-item .free-item-inner .div-img {
+  height: 90px;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.limit-free .limit-free-list .free-item .free-item-inner p a {
+  color: #262626;
+  text-decoration: none;
+  font-size: 12px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px 0 0;
+  display: inline-block;
+}
+
+.limit-free .limit-free-list .free-item .free-item-inner p a:hover {
+  color: #ff3955 !important;
+}
+
+.limit-free .limit-free-list .free-item .free-item-inner p del {
+  font-size: 12px;
+  color: #ccc;
+  margin: 5px 0;
+  display: inline-block;
+}
